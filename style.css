@@ -133,6 +133,12 @@ footer > hr {
   #header h4 {
     padding: 0px 50px 0px 50px;
   }
+
+  #about h1,
+  #about h2,
+  #about h5 {
+    padding: 0px 50px 0px 50px;
+  }
 }
 
 @media (max-width: 300px) {
