@@ -1,0 +1,176 @@
+/* Pemakaian Font */
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Libre+Baskerville&display=swap");
+
+body {
+  font-family: "Bree Serif", serif;
+  margin: 0;
+  padding: 0;
+  color: #1d2b53;
+}
+#header {
+  background-color: #1d2b53;
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: white;
+}
+
+#header > * {
+  position: absolute;
+}
+
+#header > .mountain {
+  align-self: flex-end;
+  width: 500px;
+}
+
+#header > .cloud {
+  bottom: 48vh;
+  left: 60vw;
+}
+
+#header > .cloud-2 {
+  bottom: 54vh;
+  left: 37vw;
+}
+
+#header > .cloud-3 {
+  bottom: 45vh;
+  left: 30vw;
+}
+
+#header > .cloud-4 {
+  bottom: 45vh;
+  left: 48vw;
+}
+
+#header > .mountain-2 {
+  align-self: flex-end;
+  width: 500px;
+  left: 15vw;
+}
+
+#header > .mountain-3 {
+  align-self: flex-end;
+  width: 500px;
+  right: 15vw;
+}
+
+#header > h1 {
+  top: 10vh;
+}
+
+#header > h4 {
+  top: 20vh;
+}
+.programmer-text {
+  text-decoration: underline;
+}
+
+#about {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.image-self {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.image-self > * {
+  margin-top: 20px;
+}
+
+#album {
+  background-color: #1d2b53;
+  color: white;
+  width: 100vw;
+}
+
+footer {
+  background-color: white;
+  width: 100vw;
+}
+footer > hr {
+  color: #1d2b53;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+  #header {
+    height: 45vh;
+  }
+
+  #header .mountain,
+  #header .mountain-2,
+  #header .mountain-3 {
+    width: 50vw;
+  }
+  #header .cloud,
+  #header .cloud-2,
+  #header .cloud-3,
+  #header .cloud-4 {
+    width: 20vw;
+    top: 29vh;
+  }
+
+  #header .cloud-2 {
+    left: 5vh;
+    top: 31vh;
+  }
+
+  #header .cloud-3 {
+    top: 27vh;
+    left: 12vh;
+  }
+  #header .cloud-4 {
+    top: 26vh;
+  }
+  #header h1,
+  #header h4 {
+    padding: 0px 50px 0px 50px;
+  }
+}
+
+@media (max-width: 300px) {
+  #header {
+    height: 50vh;
+  }
+
+  #header .mountain,
+  #header .mountain-2,
+  #header .mountain-3 {
+    width: 50vw;
+  }
+  #header .cloud,
+  #header .cloud-2,
+  #header .cloud-3,
+  #header .cloud-4 {
+    width: 20vw;
+    top: 37vh;
+  }
+
+  #header .cloud-2 {
+    left: 5vh;
+    top: 39vh;
+  }
+
+  #header .cloud-3 {
+    top: 35vh;
+    left: 12vh;
+  }
+  #header .cloud-4 {
+    top: 34vh;
+  }
+  #header h1,
+  #header h4 {
+    padding: 0px 30px 0px 30px;
+  }
+
+  #header h4 {
+    margin-top: 10px;
+  }
+}
